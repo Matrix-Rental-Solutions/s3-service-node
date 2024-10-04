@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      "@devslane/s3-service-node@1.0.24",
+      "/home/ubuntu/app/matrix-be"
+    ]
+  ],
+  "_from": "@devslane/s3-service-node@1.0.24",
+  "_id": "@devslane/s3-service-node@1.0.24",
+  "_inBundle": false,
+  "_integrity": "sha512-cptCUcx6geRjE3u5t/eGXSbartsVnb3yYGiRXzDFJznf2hogizwc+tfQ5MlypxyxiW2QUwr00y2lznOgbZ2ufQ==",
+  "_location": "/@devslane/s3-service-node",
+  "_phantomChildren": {
+    "buffer": "4.9.2",
+    "events": "1.1.1",
+    "ieee754": "1.1.13",
+    "jmespath": "0.15.0",
+    "url": "0.10.3",
+    "xml2js": "0.4.19"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@devslane/s3-service-node@1.0.24",
+    "name": "@devslane/s3-service-node",
+    "escapedName": "@devslane%2fs3-service-node",
+    "scope": "@devslane",
+    "rawSpec": "1.0.24",
+    "saveSpec": null,
+    "fetchSpec": "1.0.24"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.devslane.com/@devslane%2fs3-service-node/-/s3-service-node-1.0.24.tgz",
+  "_spec": "1.0.24",
+  "_where": "/home/ubuntu/app/matrix-be",
+  "author": {
+    "name": "Piyush Mishra"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.429.0",
+    "lodash": "^4.17.11"
+  },
+  "description": "S3 Service for node applications",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/lodash": "^4.14.123",
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.13.0",
+    "typedoc": "^0.14.2",
+    "typescript": "^3.2.2"
+  },
+  "directories": {
+    "lib": "lib",
+    "doc": "docs",
+    "test": "test"
+  },
+  "keywords": [
+    "node",
+    "redis",
+    "service",
+    "helper"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@devslane/s3-service-node",
+  "scripts": {
+    "build": "npm run build-ts && npm run tslint",
+    "build-ts": "tsc",
+    "docs": "typedoc --out docs lib",
+    "prepare": "npm run build && npm run test",
+    "test": "jest --coverage",
+    "test:jest": "jest",
+    "tslint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "types": "index.d.ts",
+  "version": "1.0.24"
+}

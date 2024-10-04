@@ -1,0 +1,9 @@
+export { S3Service } from "./lib/s3.service";
+export { S3Options } from "./lib/s3.extras";
+export { S3ACL } from "./lib/s3.extras";
+export { S3Operation } from "./lib/s3.extras";
+export { S3SignedUrlConfig } from "./lib/s3.extras";
+export { S3UploadConfig } from "./lib/s3.extras";
+export { S3UrlConfig } from "./lib/s3.extras";
+export { S3UrlKeyPosition } from "./lib/s3.extras";
+export { S3Error } from "./lib/s3.extras";
